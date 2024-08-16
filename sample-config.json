@@ -1,0 +1,20 @@
+{
+  "REPORT_TYPES": [
+    "daily-active-users",
+    "daily-events",
+    "daily-user-technology",
+    "daily-user-channel-grouping",
+    "daily-cross-channel"
+  ],
+  "CLIENT_SECRET_FILE": ".sample.json",
+  "SERVICE_ACCOUNT_FILE": ".sample.json",
+  "SCOPES": [
+    "https://www.googleapis.com/auth/analytics.readonly"
+  ],
+  "PROJECT_ID": "ga4-xxxxx",
+  "PROPERTY_ID": "xxxxx",
+  "INITIAL_FETCH_FROM_DATE": "2022-01-01",
+  "FETCH_TO_DATE": "today",
+  "DATASET_ID": "dataset_xxxxx",
+  "TABLE_PREFIX": "table_xxxxx_"
+}
